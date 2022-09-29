@@ -46,7 +46,7 @@ export default function App(props) {
           <Forecast data={weather} />
         </div>
         <div className="link">
-          <a href="https://github.com/JuliaTurok/react-app.git">
+          <a href="https://github.com/JuliaTurok/my-app.git">
             Open-source code
           </a>
           , by Julia Turok
