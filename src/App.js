@@ -1,7 +1,9 @@
 import Forecast from "./Forecast";
 import React, { useState } from "react";
 import axios from "axios";
+import WeatherForecast from "./WeatherForecast";
 import "./App.css";
+
 
 export default function App(props) {
   const [weather, setWeather] = useState({ ready: false });
@@ -44,6 +46,7 @@ export default function App(props) {
             <button onClick={handleSubmit}>🔍</button>
           </form>
           <Forecast data={weather} />
+          <WeatherForecast coordinates ={weather.coordinates}/>
         </div>
         <div className="link">
           <a href="https://github.com/JuliaTurok/my-app.git">
