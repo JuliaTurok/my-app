@@ -46,7 +46,7 @@ export default function App(props) {
             <button onClick={handleSubmit}>🔍</button>
           </form>
           <Forecast data={weather} />
-          <WeatherForecast coordinates ={weather.coordinates}/>
+          <WeatherForecast coordinates={weather.coordinates} />
         </div>
         <div className="link">
           <a href="https://github.com/JuliaTurok/my-app.git">
